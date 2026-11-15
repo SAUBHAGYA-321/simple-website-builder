@@ -16,5 +16,5 @@ function LoginPage() {
     <FormField label="Student email"><Input type="email" autoComplete="email" placeholder="you@college.edu" required /></FormField>
     <FormField label="Password"><Input type="password" autoComplete="current-password" placeholder="Your password" required /></FormField>
     {submitted && <p className="form-success" role="status">Demo only — sign-in is not connected to an account.</p>}
-  </DemoForm>}><p className="form-hint text-center">New around here? <Link className="text-link" to="/register">Create an account</Link></p></SiteFrame>;
+  </DemoForm><p className="form-hint text-center">New around here? <Link className="text-link" to="/register">Create an account</Link></p></SiteFrame>;
 }
