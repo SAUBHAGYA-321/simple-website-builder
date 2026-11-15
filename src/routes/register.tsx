@@ -18,5 +18,5 @@ function RegisterPage() {
     <FormField label="Phone number"><Input type="tel" autoComplete="tel" placeholder="Your phone number" /></FormField>
     <FormField label="Password"><Input type="password" autoComplete="new-password" minLength={8} placeholder="At least 8 characters" required /></FormField>
     {submitted && <p className="form-success" role="status">Demo only — account details are not saved.</p>}
-  </DemoForm>}><p className="form-hint text-center">Already part of the shelf? <Link className="text-link" to="/login">Sign in</Link></p></SiteFrame>;
+  </DemoForm><p className="form-hint text-center">Already part of the shelf? <Link className="text-link" to="/login">Sign in</Link></p></SiteFrame>;
 }
