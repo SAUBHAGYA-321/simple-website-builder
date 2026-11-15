@@ -309,6 +309,7 @@
 .form-stack { display: grid; gap: 16px; }
 .form-field { display: grid; gap: 7px; }
 .form-field label { font-size: 13px; font-weight: 600; }
+.form-field label { display: grid; gap: 7px; }
 .form-field input, .form-field textarea, .form-field select { background: var(--color-card); }
 .form-hint { margin: 16px 0 0; color: var(--color-muted-foreground); font-size: 13px; }
 .form-success { margin-top: 16px; padding: 13px 15px; background: var(--color-brand-blue-soft); color: var(--color-foreground); font-size: 14px; }
@@ -337,6 +338,7 @@
 .footer-links { display: flex; gap: 18px; }
 .footer-links a { color: var(--color-muted-foreground); text-decoration: none; }
 .footer-links a:hover { color: var(--color-primary); }
+.categories-block { padding-top: 0; }
 @media (max-width: 850px) {
   .header-inner { flex-wrap: wrap; padding: 14px 0; gap: 13px; }
   .main-nav { order: 3; width: 100%; justify-content: space-between; gap: 10px; }

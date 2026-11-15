@@ -94,7 +94,7 @@ export function DemoForm({ title, kicker, description, children, onSubmit, submi
 }
 
 export function FormField({ label, children }: { label: string; children: ReactNode }) {
-  return <div className="form-field"><label>{label}</label>{children}</div>;
+  return <div className="form-field"><label>{label}{children}</label></div>;
 }
 
 export function HomePage() {
@@ -112,7 +112,7 @@ export function HomePage() {
       <div className="feature-item"><span className="feature-icon"><Truck size={22} /></span><div><strong>Meet up on campus</strong><span>Easy local hand-offs</span></div></div>
     </div></div>
     <section className="content-wrap section-block"><div className="section-heading"><div><p className="eyebrow">Picked for campus life</p><h2 className="section-title">Popular right now</h2></div><Link className="text-link" to="/products">See everything<ChevronRight size={17} /></Link></div><ProductGrid items={products.slice(0, 4)} onAdd={add} /></section>
-    <section className="content-wrap section-block" style={{ paddingTop: 0 }}><div className="section-heading"><div><p className="eyebrow">Find your next useful thing</p><h2 className="section-title">Shop by category</h2></div></div><div className="category-grid">
+    <section className="content-wrap section-block categories-block"><div className="section-heading"><div><p className="eyebrow">Find your next useful thing</p><h2 className="section-title">Shop by category</h2></div></div><div className="category-grid">
       <Link className="category-tile" to="/products"><div><strong>Books & notes</strong><span>Course reads, study guides</span></div><BookOpen /></Link>
       <Link className="category-tile" to="/products"><div><strong>Tech & gadgets</strong><span>Everyday campus tech</span></div><Laptop /></Link>
       <Link className="category-tile" to="/products"><div><strong>Study essentials</strong><span>Tools for getting it done</span></div><Sparkles /></Link>
