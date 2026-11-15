@@ -28,3 +28,5 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+- Keep the CampusKart class project frontend-only with sample data and simple, clearly demo-only interactions so it stays appropriate for a beginner web assignment.
